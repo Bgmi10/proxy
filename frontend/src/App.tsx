@@ -15,7 +15,7 @@ function App() {
   }, []);
 
 
-  function Card({ title, value }) {
+  function Card({ title, value }: { title: string, value: number  | string}) {
     return (
       <div style={{
         padding: "20px",
